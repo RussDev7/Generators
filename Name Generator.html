@@ -1,0 +1,100 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+<!-- saved from url=(0014)about:internet -->
+
+<head>
+<title>Generator: Terrarian Player Name Generator v3</title>
+
+<link href="css/chainmail.css" rel="stylesheet" type="text/css" media="all" /></head>
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<!-- Global IE fix to avoid layout crash when single word size wider than column width -->
+<!--[if IE]><style type="text/css"> body {word-wrap: break-word;}</style><![endif]-->
+
+<body background="">
+
+<div class="background"> <!-- The Black Start -->
+
+<div class="starter"> <!-- Dropdown -->
+<button onclick="myFunction('Demo1')" class="w3-button w3-block w3-black w3-left-align">
+&#9660 All Generator's</button>
+
+<div id="Demo1" class="w3-hide">
+  <a class="w3-button w3-block w3-left-align" href="#">More comming soon!</a> <!-- In the # put link -->
+</div>
+</div>
+
+<script type="text/javascript">function GenerateResults()
+{
+array1 = new Array("Supreme","","True","","","","","","","","","","","","","","","");
+
+array2 = new Array("Lunar","Solar","Vortex","Nebula","Stardust","Hell","Cave","Demon","Armored","Flying","Angry","Hallow","Corrupt","Crimson","Jungle","Lunatic","Stupid","Lihzahrd","Rune","Rusty","Ragged","Sea","Desert","Etherian","Baby","Martian","Vampire","White","Blue","Red","Dead","Queen","King","Vile","Spectral","Dark","Light","Evil","Feral","Cursed","Enchanted","Voodoo","Molten","Firey","Sentient","True","Black","Yellow","White","Blind","Earthen","Hellbringer","Mycelium","Forest","Galactic","","","","","","","","","","","","","","","","","","","","","","","","","");
+
+array3 = new Array("Beast","Monster","Vampire","Serpent","Guardian","Eater","Man","Angel","Demon","Doctor","Scientist","Zombie","Crawler","Viking","Wizard","Magician","Mage","Spider","Creeper","Mimic","Ghoul","Ghost","Spirit","Skull","Cultist","Lamia","Bones","Soul","Dog","Wolf","Wyvern","Dragon","Goblin","Undead","Golem","Elemental","Archer","Gunslinger","Sniper","Summoner","Mage","Sorcerer","Warrior","Bomber","Captain","Saint","Templar","Reaper","Psycho","Creature","Grunt","Turret","Hound","Elf","Squid","Alien","Miner","Moon","Sun","Ninja","Piranha","Eskimo","Sword","Hammer","Scythe","Rider","Soldier","Unicorn","Paladin","Sorcerer","Necromancer","Biter","Knight","Caster","Ent","Minotaur","UFO","Beetle","Creeper","Crawler","Stone","Rock","Assassin");
+
+strRandomizer=array1[Math.floor(Math.random()*array1.length)] + " " + array2[Math.floor(Math.random()*array2.length)] + " " + array3[Math.floor(Math.random()*array3.length)] + " "
+document.getElementById("result").innerHTML=strRandomizer;
+}
+</script>
+
+<br /> <!-- GUI Layout -->
+
+<center>
+<div class="title">
+    <span id="lblName">Terrarian Player Name Generator v3</span>
+</div>
+</center>
+
+<br />
+<br />
+
+<center>
+<div class="description">
+    <span id="lblDesc" style="display:width:500px;">The Offical Terraria Generator Page!</span>
+</div>
+</center>
+
+<br />
+<br />
+    <center><input type="button" name="results" value="Generate" class="btn" onclick="GenerateResults();" /></center>
+<br />
+<br />
+
+<center><div id="result" class="result"></center>
+
+</div> <!-- The Black End --> <!-- End -->
+
+<div class="ender"> <!-- Bottom Adress Bar -->
+    <div class="w3-text-white w3-center">
+
+        <tr>
+            <th>Released:</th>
+            <td><i>Thursday, November 2, 2017</i></td>
+            <td><b> |</b></td>
+        </tr>
+    
+        <tr>
+            <th>Created by:</th>
+            <td><a href="http://steamcommunity.com/id/CrypticNight7/">xXCrypticNightXx</a></td> <!-- Page -->
+			<td><b> |</b></td>
+        </tr>
+    
+        <tr>
+            <th>All rights reserved.</th>
+            <td></a></td> <!-- http://statistics.006.free-counters.co.uk/?count=generator01 -->
+        </tr>
+
+	</div>
+</div>
+
+<script> <!-- DropDown Script -->
+function myFunction(id) {
+    var x = document.getElementById(id);
+    if (x.className.indexOf("w3-show") == -1) {
+        x.className += " w3-show";
+    } else { 
+        x.className = x.className.replace(" w3-show", "");
+    }
+}
+</script>
+
+</html>
